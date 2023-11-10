@@ -1,0 +1,24 @@
+/* table color */
+.view-listing tr td:first-child {
+  background-color: #fcfcfd;
+  border-right: 1px solid rgba(224, 224, 224, 1);
+  font-weight: 500;
+}
+
+table td,
+table th {
+  border-color: rgb(242, 244, 247) !important;
+}
+
+/*input border-color: rgb(208, 213, 221); */
+
+.MuiDivider-root {
+  border-color: rgb(242, 244, 247) !important;
+}
+
+/*Important remove a black border added to menu on hover the first time menu mounts after page load->header menu*/
+.MuiMenu-paper ul {  
+  outline: none !important;
+}
+
+

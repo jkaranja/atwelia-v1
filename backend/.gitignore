@@ -1,0 +1,12 @@
+node_modules
+.env
+logs
+uploads
+uploads_chat
+uploads_inst
+uploads_notice
+uploads_rev
+
+git 
+backend-v4
+src/migrations
