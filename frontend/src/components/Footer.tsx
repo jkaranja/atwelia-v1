@@ -26,9 +26,9 @@ export const Footer = () => {
   //below, Fade children component must not be a Fab/btn //box working
 
   return (
-    <Box color="#fff" bgcolor="#242145" py={4} >
+    <Box color="#fff" bgcolor="#242145" py={4}>
       <Box display="flex" justifyContent="center" columnGap={2} pb={2}>
-        <Typography variant="caption">WhatsApp: +254799295587 </Typography>
+        <Typography variant="caption">WhatsApp: +1(555) 021-2523 </Typography>
         <Typography variant="caption">Email: support@atwelia.com</Typography>
       </Box>
       <Divider sx={{ borderColor: "#404376!important" }} />

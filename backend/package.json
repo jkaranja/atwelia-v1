@@ -46,7 +46,7 @@
     "@superfaceai/passport-twitter-oauth2": "^1.2.3",
     "adm-zip": "^0.5.10",
     "africastalking-ts": "^0.0.3",
-    "bcrypt": "^5.1.0",
+    "bcrypt": "^5.1.1",
     "cloudinary": "^1.33.0",
     "concurrently": "^7.6.0",
     "cookie-parser": "^1.4.6",

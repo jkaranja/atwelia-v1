@@ -23,6 +23,6 @@
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "@types", "src/components/BrokerFee.tsx"],
+  "include": ["src", "@types"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

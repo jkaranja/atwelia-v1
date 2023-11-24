@@ -26,7 +26,7 @@ import { IMAGE_ROOT } from "../constants/paths";
 //https://www.freecodecamp.org/news/how-to-add-drag-and-drop-in-react-with-react-beautiful-dnd/
 //https://codesandbox.io/examples/package/react-beautiful-dnd //examples
 //https://github.com/atlassian/react-beautiful-dnd/blob/master/docs/guides/types.md //types
-//https://github.com/atlassian/react-beautiful-dnd/issues/2396 //fix issue due to strict mode
+//https://github.com/atlassian/react-beautiful-dnd/issues/2396 //fix issue due to strict mode//Invariant failed: Cannot find droppable entry with id
 
 interface ImagesPreviewProps {
   selectedImages: IImage[];

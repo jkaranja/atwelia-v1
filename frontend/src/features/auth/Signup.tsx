@@ -83,7 +83,7 @@ const Signup = () => {
         //save token->store
         dispatch(setCredentials(data.accessToken));
 
-        navigate("/tours");
+        navigate("/listings");
       }
     }, 2000);
 

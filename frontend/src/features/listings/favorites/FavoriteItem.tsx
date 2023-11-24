@@ -125,7 +125,7 @@ const FavoriteItem = ({ favorite }: FavoriteItemProps) => {
           </Typography>
 
           <Typography gutterBottom variant="h6">
-            Ksh {favorite.listing?.price}/mo
+            ${favorite.listing?.price}/mo
           </Typography>
         </CardContent>
 
@@ -133,7 +133,7 @@ const FavoriteItem = ({ favorite }: FavoriteItemProps) => {
           <Tooltip title="Share on Facebook">
             <FacebookShareButton
               url={`${BASE_URL + pathname + search}`} //window./location.href
-              quote={`${favorite.listing?.bedrooms}, Rent Ksh ${favorite.listing?.price}, in ${favorite.listing?.location?.description} `}
+              quote={`${favorite.listing?.bedrooms}, Rent $${favorite.listing?.price}, in ${favorite.listing?.location?.description} `}
               hashtag={`#${favorite.listing?.bedrooms}`}
             >
               {/* <FacebookIcon size={32} round /> */}

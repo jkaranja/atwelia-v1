@@ -181,7 +181,7 @@ const Listing = ({ listing, favorites }: ListingProps) => {
               {listing.location?.description}
             </Typography>
 
-            <Typography variant="h6">Ksh {listing.price}/mo</Typography>
+            <Typography variant="h6">${listing.price}/mo</Typography>
             <Typography variant="body2" color="text.secondary">
               {formatListingDate(new Date(listing.updatedAt))}
             </Typography>
@@ -209,7 +209,7 @@ const Listing = ({ listing, favorites }: ListingProps) => {
             {/* <Tooltip title="Share on Facebook">
               <FacebookShareButton
                 url={`${BASE_URL + pathname + search}`} //window./location.href
-                quote={`${listing.bedrooms}, Rent Ksh ${listing.price}, in ${listing.location?.description} `}
+                quote={`${listing.bedrooms}, Rent $${listing.price}, in ${listing.location?.description} `}
                 hashtag={`#${listing.bedrooms}`}
               >
                   <FacebookIcon size={32} round /> //show eg fb icon or show mui shareIcon

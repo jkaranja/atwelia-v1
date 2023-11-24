@@ -65,15 +65,15 @@ const SignInForm = ({
               <Controller
                 name="phoneNumber"
                 control={control}
-                rules={{
-                  validate: (value, formValues) =>
-                    PHONE_NUMBER_REGEX.test(value) ||
-                    "Invalid phone number. Format: +254xxxxxxxxx",
-                }}
+                // rules={{
+                //   validate: (value, formValues) =>
+                //     PHONE_NUMBER_REGEX.test(value) ||
+                //     "Invalid phone number. Format: +254xxxxxxxxx",
+                // }}
                 render={({ field: { value, onChange, ...field } }) => (
                   <PhoneInput
                     country={"ke"} //initial country	'us' | 1
-                    onlyCountries={["ke"]} //country codes to be included	['cu','cw','kz']
+                    //onlyCountries={["ke"]} //country codes to be included	['cu','cw','kz']
                     // preferredCountries={["ke"]} //array	country codes to be at the top	['cu','cw','kz']
                     //excludeCountries	array	array of country codes to be excluded	['cu','cw','kz']
 
@@ -98,7 +98,7 @@ const SignInForm = ({
                     //copyNumbersOnly //true//not sure//not adding the "+" if false
                     //autocompleteSearch	false
                     //showDropdown	false
-                    //----styles//replace Style with call to pass a className
+                    //----styles//replace Style with class to pass a className
                     //buttonStyle	object	styles for dropdown button eg inputClass=""
                     inputStyle={{ height: 55, width: "100%" }} //	object	styles for input
                     containerStyle={{ height: 55 }} //object	styles for container

@@ -68,15 +68,15 @@ const RegisterForm = ({
           <Controller
             name="phoneNumber"
             control={control}
-            rules={{
-              validate: (value, formValues) =>
-                PHONE_NUMBER_REGEX.test(value) ||
-                "Invalid phone number. Format: +254xxxxxxxxx",
-            }}
+            // rules={{
+            //   validate: (value, formValues) =>
+            //     PHONE_NUMBER_REGEX.test(value) ||
+            //     "Invalid phone number. Format: +254xxxxxxxxx",
+            // }}
             render={({ field: { value, onChange, ...field } }) => (
               <PhoneInput
                 country={"ke"}
-                onlyCountries={["ke"]}
+                // onlyCountries={["ke"]}
                 inputProps={{ required: true, autoFocus: true }} //	object	props to pass into the input eg  = {{ name: 'phone', required: true, autoFocus: true}}
                 value={value} //input state value
                 onChange={(phone) => onChange(`+${phone}`)} //onChange(value, country: { name, dialCode, countryCode (iso2) }, event, formattedValue)//value = phoneNumber without the '+'

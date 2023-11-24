@@ -50,7 +50,7 @@ const LocationPicker = ({
       //types: ['geocode'] //this should work !//returns all areas//geocode instructs the Place Autocomplete service to return only geocoding results, rather than business results. use when the location specified may be indeterminate.
       //NOTE: You can safely mix the geocode and establishment types. You cannot mix type collections (address, (cities) or (regions)) with any other type, or an error occurs.
       //More: https://developers.google.com/maps/documentation/places/web-service/supported_types#table3
-      componentRestrictions: { country: "ke" },
+     // componentRestrictions: { country: "ke" },
     },
     //fields: //By default it uses address_components, geometry.location, place_id, formatted_address.
     //inputAutocompleteValue: Autocomplete value to be set to the underlying input.

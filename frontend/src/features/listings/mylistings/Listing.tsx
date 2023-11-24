@@ -116,7 +116,7 @@ const Listing = ({ listing, listingStatus }: ListingProps) => {
           </Typography>
 
           <Typography gutterBottom variant="h6">
-            Ksh {listing.price}/mo
+            ${listing.price}/mo
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {formatListingDate(new Date(listing.updatedAt))}

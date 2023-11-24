@@ -5,7 +5,7 @@ export interface IImage {
   name: string; //File
   lastModified: number; //File ////default Date.now()
   //*lastModifiedDate: Date; //File-> deprecated/could be present in file input element result in some browsers but not defined in File interface //eg Tue Nov 08 2022 20:16:47 GMT+0300 (East Africa Time)
-  webkitRelativePath: string; //File
+  webkitRelativePath: string; //File //empty string
   size: number; //File + Fetched//in bytes
   // path: string; //Fetched
   //mimetype: string; //Fetched

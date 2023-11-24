@@ -38,7 +38,7 @@ const Login = () => {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
 
-  const from = location.state?.from?.pathname || "/tours";
+  const from = location.state?.from?.pathname || "/listings";
 
   const {
     control,

@@ -24,7 +24,7 @@ const ChatHeader = ({ recipient }: ChatHeaderProps) => {
         <ListItemAvatar>
           <Avatar
             alt={recipient?.username}            
-            src={`${PROFILE_PIC_ROOT}/${recipient.profile.profilePic?.filename}`}
+            src={`${PROFILE_PIC_ROOT}/${recipient.profile?.profilePic?.filename}`}
 
           />
         </ListItemAvatar>

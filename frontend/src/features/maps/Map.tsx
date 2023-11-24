@@ -21,8 +21,8 @@ const containerStyle = {
 };
 
 const center = {
-  lat: -1.2800161,
-  lng: 36.8191878,
+  lat: 34.0549,
+  lng: -118.2426,
 };
 
 type MapProps = {
@@ -105,15 +105,16 @@ const Map = ({ data }: MapProps) => {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center} //center is cbd//map pans to this location on load
-        zoom={15}
+        //zoom={15}
+        zoom={7}//required
         onLoad={onLoad}
         onUnmount={onUnmount}
-        options={{
-          zoomControl: false,
-          streetViewControl: false,
-          mapTypeControl: false,
-          fullscreenControl: false,
-        }}
+        // options={{
+        //  // zoomControl: false,
+        //   //streetViewControl: false,
+        //   //mapTypeControl: false,
+        //   //fullscreenControl: false,
+        // }}
       >
         {/* Child components, such as markers, info windows, etc. */}
 
